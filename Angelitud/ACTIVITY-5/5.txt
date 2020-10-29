@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class PatternsDemo {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter number of rows in the pyramid (1-9) - ");
+
+    int noOfRows = sc.nextInt();
+    // calling method
+    printPattern(noOfRows);
+  }
+    
+  private static void printPattern(int num){
+    for(int i = 1; i <= num; i++){
+      // this loop will print the spaces after which the
+      // number has to be printed
+      for(int j = 0; j < num - i; j++){
+        System.out.print(" ");
+      }
+      // this loop will print the number
+      for(int k = 0; k < i; k++){
+        System.out.print(i + " ");
+      }
+      System.out.println();           
+    }           
+  }
+}
+ 
