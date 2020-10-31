@@ -1,4 +1,4 @@
-public class Activityiv {
+public class Activity5iv {
     public static void main(String[] args) {
         int rows = 5;
         int j = 0;
