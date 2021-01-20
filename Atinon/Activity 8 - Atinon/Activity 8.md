@@ -1,10 +1,11 @@
 # MARK VINCENT ATINON - BSCS 2B AI
 # 9.6 Exercises -- OOP ACTIVITY 8
 9.6.1 - Defining Terms
-1. class is like a blueprint of a program
-2.object is like a blueprint for creating a blueprint 
-3.instantiate is like a process of create a keyword of an objecy from a class.
-4.Instance Variable is a non static variable because they are created separately.
+
+1. Class - is like a blueprint of a program
+2. Object - are created from templates known as classes.
+3. Instantiate - is like a process of create a keyword of an objecy from a class.
+4. Instance Variable - is a non static variable because they are created separately.
 5. Instance Method - are non static method because theya re created separately.
 6. Class Variables or static member variable - are variables that are static and belong to the class itself.
 7. Constructor - are functions that is being called when the class is being executed.
