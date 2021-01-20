@@ -1,4 +1,5 @@
-#9.6 Exercises -- OOP ACTIVITY 8
+# MARK VINCENT ATINON - BSCS 2B AI
+# 9.6 Exercises -- OOP ACTIVITY 8
 9.6.1 - Defining Terms
 1. class is like a blueprint of a program
 2.object is like a blueprint for creating a blueprint 
@@ -10,7 +11,7 @@
 
 # 9.6.2 Java Scavenger Hunt
 
-1. Look for a method that checks if a certain String ends with a certain suffix. For
+## 1. Look for a method that checks if a certain String ends with a certain suffix. For
 example, if the given string is "Hello", the method should return true the suffix given
 is "lo", and false if the given suffix is "alp"
 
