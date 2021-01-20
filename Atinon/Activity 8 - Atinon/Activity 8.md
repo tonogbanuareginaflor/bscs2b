@@ -15,55 +15,64 @@
 example, if the given string is "Hello", the method should return true the suffix given
 is "lo", and false if the given suffix is "alp"
 
+```
 boolean public static endsWith()
+```
 Sample Usage :
 
+```
 String VarStr = "Hello"
 
 System.out.println(VarStr.endsWith("lo"));
 //output value is true
 System.out.println(VarStr.endsWith("ple"));
 //ouput val is false
+```
 
-### 2. Look for the method that determines the character representation for a specific digit
-in the specified radix. For example, if the input digit is 15, and the radix is 16, the
-method would return the character F, since F is the hexadecimal representation for
-the number 15 (base 10)
+### 2. Look for the method that determines the character representation for a specific digit in the specified radix. For example, if the input digit is 15, and the radix is 16, the method would return the character F, since F is the hexadecimal representation for the number 15 (base 10)
 
- public static char forDigit(int digit, int radix)  
-
+```
+public static char forDigit(int digit, int radix)  
+```
 Sample Usage :
+
+```
 char valChar= Character.forDigit(15,16);
 System.out.print(valChar);
 //output is false
+```
 
 ### 3. Look for the method that terminates the currently running Java Virtual Machine
 
- public static void exit(int status)
+```
+public static void exit(int status)
+```
 
 Sample Usage :
 
+```
 System.exit(0);
 //exits the program silently
+```
 
-
-### 4. Look for the method that gets the floor of a double value. For example, if I input a
-3.13, the method should return the value 3.
-
- public static double floor(double a)
-
+### 4. Look for the method that gets the floor of a double value. For example, if I input a 3.13, the method should return the value 3.
+```
+public static double floor(double a)
+```
+Sample Usage :
+```
 double myVal = Math.floor(3.13);
 System.out.println(myVal);
 //output is 3.
+```
 
-
-### 5. Look for the method that determines if a certain character is a digit. For example, if I
-input '3', it returns the value true.
-
+### 5. Look for the method that determines if a certain character is a digit. For example, if I input '3', it returns the value true.
+```
 public static boolean isDigit(char ch)
-
+```
 Sample Usage :
-
+```
 boolean valDigit = Character.isDigit('3')
 System.out.println(valDigit);
 //output is true
+```
