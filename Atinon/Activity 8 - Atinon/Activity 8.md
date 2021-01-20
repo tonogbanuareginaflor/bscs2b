@@ -39,7 +39,7 @@ System.out.print(valChar);
 
 ### 3. Look for the method that terminates the currently running Java Virtual Machine
 
-## public static void exit(int status)
+ public static void exit(int status)
 
 Sample Usage :
 
@@ -50,7 +50,7 @@ System.exit(0);
 ### 4. Look for the method that gets the floor of a double value. For example, if I input a
 3.13, the method should return the value 3.
 
-## public static double floor(double a)
+ public static double floor(double a)
 
 double myVal = Math.floor(3.13);
 System.out.println(myVal);
@@ -60,7 +60,7 @@ System.out.println(myVal);
 ### 5. Look for the method that determines if a certain character is a digit. For example, if I
 input '3', it returns the value true.
 
-## public static boolean isDigit(char ch)
+public static boolean isDigit(char ch)
 
 Sample Usage :
 
