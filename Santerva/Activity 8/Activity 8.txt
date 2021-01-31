@@ -1,0 +1,89 @@
+Activity 8
+
+Defining Terms
+1. Class - blueprint of an object
+2. Object - instance of a class
+3. Instatiate - to create an instance of a class
+4. Instance Variable - a created variable of an object
+5. Instance Method - a created method of an object
+6. Class Variables or static member variables - variable of a class
+7. Constructor - used to call and initialize objects
+
+*******************************************************************************
+
+Java Scavenger Hunt
+
+ - Look for a method that checks if a certain String ends with a certain suffix. For
+example, if the given string is "Hello", the method should return true the suffix given
+is "lo", and false if the given suffix is "alp"
+
+Class: String
+
+Method Declaration: public boolean endsWith(String value)
+
+Sample Usage:
+
+String a = "Hello"
+
+System.out.println(a.endsWith("lo"));
+// output: true
+
+System.out.println(a.endsWith("alp"));
+// output: false
+
+*******************************************************************************
+
+ - Look for the method that determines the character representation for a specific digit
+in the specified radix. For example, if the input digit is 15, and the radix is 16, the
+method would return the character F, since F is the hexadecimal representation for
+the number 15 (base 10)
+
+Class: Character
+
+Method Declaration: public static char forDigit(int digit, int radix) 
+
+Sample Usage:
+
+char a = Character.forDigit(15,16);
+System.out.println(a);
+// output: f
+
+*******************************************************************************
+
+ - Look for the method that terminates the currently running Java Virtual Machine
+
+Class: System
+
+Method Declaration: public static void exit(int a)
+
+Sample Usage :
+
+System.exit(0);
+
+*******************************************************************************
+
+ - Look for the method that gets the floor of a double value. For example, if I input a
+3.13, the method should return the value 3.
+
+Class: Math
+
+Method Declaration: public static double floor(double value)
+
+System.out.println(Math.floor(3.13));
+
+// output: 3
+
+*******************************************************************************
+
+ -  Look for the method that determines if a certain character is a digit. For example, if I
+input '3', it returns the value true.
+
+Class: Character
+
+Method Declaration: public static boolean isDigit(char value)
+
+Sample Usage :
+
+System.out.println(Character.isDigit('i'));
+
+//output: true
