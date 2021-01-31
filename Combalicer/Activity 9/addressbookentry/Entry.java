@@ -51,7 +51,7 @@ public class Entry {
     
     public String getEmail() {
         System.out.print("Email: ");
-        return name;
+        return email;
     }
     
     public static void main(String[] args) {
