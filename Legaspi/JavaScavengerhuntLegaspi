@@ -1,0 +1,109 @@
+import java.util.*;
+
+public class JavaScavengerhuntLegaspi{
+    static Scanner skaner = new Scanner (System.in);
+    public static void main (String args[])
+    {
+        
+        System.out.println("Welcome to the 9.6.2 Scavenger Hunt search! What do you opt to do?");
+        System.out.println("[1]endsWith Method \n"
+                + "[2]forDigit Method \n"
+                + "[3]exit Method \n"
+                + "[4]floor Method \n"
+                + "[5]isDigit Method");
+        int option = skaner.nextInt();
+        if (option==1)
+        {
+            System.out.println(
+                "Class: String Method Declaration:\n\n" +
+                "\t public boolean endsWith(String suffix)\n\n"
+                +"Sample Usage\n\n"
+                +"\t String endsWithWord = \"Hello world!\";\n"
+                +"\t System.out.println(endsWithWord.endsWith(\"world!\"));\n"
+            );
+            System.out.println("OUTPUT---------------------------------------");
+            String endsWithWord = "Hello world!";
+            System.out.println(endsWithWord.endsWith("world!"));
+            System.out.println("Press 1 to go back to main menu");
+            option = skaner.nextInt();
+            if(option==1)
+            {
+                main(null);
+            }
+            
+        }
+        if (option==2)
+        {
+            System.out.println(
+                "Class: Character Method Declaration:\n\n" +
+                "\t public static char forDigit(int digit, int radix)\n\n"
+                +"Sample Usage\n\n"
+                +"\t char forDigitNum = Character.forDigit(13, 16);\n"
+                +"\t System.out.println(forDigitNum);\n"
+            );
+            System.out.println("OUTPUT---------------------------------------");
+            char forDigitNum = Character.forDigit(13, 16);
+            System.out.println(forDigitNum);
+            System.out.println("Press 1 to go back to main menu");
+            option = skaner.nextInt();
+            if(option==1)
+            {
+                main(null);
+            }
+        }
+        if (option==3)
+        {
+            System.out.println(
+                "Class: Runtime Method Declaration:\n\n" +
+                "\t public void exit(int status)\n\n"
+                +"Sample Usage\n\n"
+                +"\t System.exit(0);\n"
+            );
+            System.out.println("OUTPUT---------------------------------------");
+            System.exit(0);
+            System.out.println("Press 1 to go back to main menu");
+            option = skaner.nextInt();
+            if(option==1)
+            {
+                main(null);
+            }
+        }
+        if (option==4)
+        {
+            System.out.println(
+                "Class: Math Method Declaration:\n\n" +
+                "\t public static double floor(double a)\n\n"
+                +"Sample Usage\n\n"
+                +"\t double val = Math.floor(3.13);\n"
+                +"\t System.out.println(val);\n"
+            );
+            System.out.println("OUTPUT---------------------------------------");
+            double val = Math.floor(3.13);
+            System.out.println(val);
+            System.out.println("Press 1 to go back to main menu");
+            option = skaner.nextInt();
+            if(option==1)
+            {
+                main(null);
+            }
+        }
+        if (option==5)
+        {
+            System.out.println(
+                "Class: Character Method Declaration:\n\n" +
+                "\t boolean isDigit(char ch)\n\n"
+                +"Sample Usage\n\n"
+                +"\t System.out.println(Character.isDigit('5'));\n"
+            );
+            System.out.println("OUTPUT---------------------------------------");
+            System.out.println(Character.isDigit('5'));
+            System.out.println("Press 1 to go back to main menu");
+            option = skaner.nextInt();
+            if(option==1)
+            {
+                main(null);
+            }
+        }
+        
+    }
+}
