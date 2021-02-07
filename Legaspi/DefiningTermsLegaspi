@@ -1,0 +1,41 @@
+
+public class DefiningTermsLegaspi {
+    /*
+    1. Class - is the blueprint of an object - it contains 
+    attributes, methods, as well as subclasses in order to create an object. This term
+    is more used in more technical ways.
+    */
+    
+    /*
+    2. Object - Refers to an instance variable that is instantiated in 
+    main method where it inherits the properties from a referenced class -which means 
+    that an Object is a product of a class whenever it is instantiated.
+    */
+    
+    /*
+    3. Instantiate - a process of creating a variable/object by initializing its name and value.
+    */
+   
+    /*
+    4. Instance Variable - variable that contains/holds a data which will be exploited by
+    methods in later use.
+    */
+    
+    /*
+    5. Instance Method - actually a subclass, in its purest form, but is commonly
+    utilized as a processing mechanism for an object/variable.
+    */
+    
+    /*
+    6. Class Variables or static member variables - are the variables that are/will be automatically
+    inherited by an object as an attribute-it is due to the fact that these are instantiated/initialized in class level;.
+    Therefore, all of the subclass(methods) can have an access. However, 'static' status of a variable can be a
+    hindrance for subclass' exploitation because of its constant nature.
+    */
+    
+    /*
+    7. Constructor - a mechanism that creates/allocates data a memory space for a newly-created/modified
+    variable/object.
+    */
+    
+}
