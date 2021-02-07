@@ -1,0 +1,97 @@
+Elaisha D. Diana    BSCS 2B AI
+OOP 9.6 EXERCISES - Activity 8
+
+9.6.1 Defining Terms
+1. Class is a blueprint for creating objects.
+2. Object is instance of a class.
+3. Instantiate creates the object.
+4. Instance Variable is declared in a class but outside of constructors, methods, or blocks.
+5. Instance Method is basically a method of the class.
+6. Class Variables or static member is any variable declared with the static modifier of which a single copy exists, 
+   regardless of how many instances of the class exist.
+7. Constructor is a special method that is used to initialize objects.
+
+9.6.2 Java Scavenger Hunt
+
+1. Look for a method that checks if a certain String ends with a certain suffix. For
+example, if the given string is "Hello", the method should return true the suffix given
+is "lo", and false if the given suffix is "alp"
+
+	## Java String endsWith(String str) method
+
+Sample Usage :
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        String Name = "endstring";
+         
+        System.out.println( Name.endsWith("lo") );  //true
+         
+        System.out.println( Name.endsWith("ple) );  //false
+    }
+}
+
+2. Look for the method that determines the character representation for a specific digit
+in the specified radix. For example, if the input digit is 15, and the radix is 16, the
+method would return the character F, since F is the hexadecimal representation for
+the number 15 (base 10)
+
+## public static char forDigit(int digit, int radix)
+
+Sample Usage :
+char valChar= Character.forDigit(15,16);
+System.out.print(valChar);
+//output is false
+
+3. Look for the method that terminates the currently running Java Virtual Machine
+
+## public void exit(int status)
+Sample Usage :
+public class RuntimeDemo {
+
+   public static void main(String[] args) {
+
+      // print when the program starts
+      System.out.println("Program starting...");
+
+      // cause the program to exit
+      Runtime.getRuntime().exit(0);
+
+      // try to print something
+      System.out.println("Program still running...");
+   }
+}
+
+
+4. Look for the method that gets the floor of a double value. For example, if I input a
+3.13, the method should return the value 3.
+
+## public static double floor(double a)
+
+public class Test { 
+
+   public static void main(String args[]) {
+      double a = 3.13;
+
+      System.out.println(Math.floor(a));
+   }
+}
+
+
+
+5. Look for the method that determines if a certain character is a digit. For example, if I
+input '3', it returns the value true.
+
+## boolean isDigit(char ch)
+
+Sample Usage :
+
+public class Test {
+
+   public static void main(String args[]) {
+      System.out.println(Character.isDigit('3'));
+   }
+}
+
